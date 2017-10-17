@@ -1,0 +1,97 @@
+body {
+    margin: 0 auto;
+}
+
+.cancha {
+    width: 1260px;
+    height: 680px;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+    background-color: #83b231;
+    margin-top: 5px;
+}
+
+#borde {
+    width: 1160px;
+    height: 590px;
+    background-color: #83b231;
+    position: absolute;
+    border: 15px solid white;
+    bottom: 25px;
+    right: 33px;
+    
+}
+
+#arco1 {
+    width: 140px;
+    height: 290px;
+    background-color: #83b231;
+    position: absolute;
+    border:15px solid white; 
+    bottom: 165px;
+    left: 37px;
+
+}
+
+#arco2 {
+    width: 140px;
+    height: 290px;
+    background-color: #83b231;
+    position: absolute;
+    border: 15px solid white; 
+    bottom: 165px;
+    right: 33px;
+}
+
+#circulo {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #83b231;
+    border: 15px solid white;
+    bottom: 180px;
+    left: 490px;
+}
+
+#jugador1 {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    border-style: outset;
+    bottom: 510px;
+    left: 680px;
+}
+
+#jugador2 {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    border-style: outset;
+    bottom: 440px;
+    left: 170px;
+}
+
+#jugador3 {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    border-style: outset;
+    bottom: 200px;
+    right: 220px;
+}
